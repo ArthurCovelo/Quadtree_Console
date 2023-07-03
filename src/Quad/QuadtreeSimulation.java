@@ -308,10 +308,18 @@ public class QuadtreeSimulation extends JPanel implements KeyListener {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Quadtree Simulation");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
-        frame.getContentPane().add(new QuadtreeSimulation());
-        frame.setVisible(true);
+    	 long startTime = System.currentTimeMillis();
+
+         JFrame frame = new JFrame("Quadtree Simulation");
+         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
+         frame.getContentPane().add(new QuadtreeSimulation());
+         frame.setVisible(true);
+
+         long endTime = System.currentTimeMillis();
+         long executionTime = endTime - startTime;
+         System.out.println("Tempo total de execução: " + executionTime + "ms");
+
+       
     }
 }

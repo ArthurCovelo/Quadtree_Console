@@ -1,0 +1,66 @@
+Integrantes do Grupo: 
+
+Gabriel Adonai Gonçalves
+Arthur Covelo
+Sarah Sartore
+
+Objetivo:
+Criar um sistema de arvore BSP, quadtree para um sistema de 50 x 50 elementos estaticos x dinamicos, tendo colisões entre si e tambem uma classe interativa do jogador interagindo e colidindo com esses objetos.
+A quadtree tera um papel de divisão e mapeamento do setores do mapa em 4 por 4, permetindo que a maquinia use os quadrantes especificos para realizar os calculos de colisoes, em vez de aplicar a todos os objetos do cenario inteiro. vai de quadrante a quadrante.
+
+Quantidade De Elementos:
+
+50 Estáticos
+50 Dinâmicos
+1 Player
+
+Trabalhos de Referênica:
+Vinh Truong
+SFML - Quadtree Collision Detection
+https://www.youtube.com/watch?v=TJzq_kjtGTc
+
+The Coding Train - Coding Challenge #98.1: Quadtree - Part 1,2 & 3
+https://www.youtube.com/watch?v=OJxEcs0w_kE
+https://www.youtube.com/watch?v=QQx_NmCIuCY
+https://www.youtube.com/watch?v=z0YFFg_nBjw
+
+Trabalho de Ex alunos octotree
+https://github.com/NdeNoronha/Octree_Unity
+
+
+Tempos de Execução: total 5 tempos de execução para fazer a média do SpeedUP 
+
+Tempo de execução 1(T1) Quadtree: 236 milissegundos(ms)
+Tempo de execução 2(T2) Quadtree: 247 milissegundos
+Tempo de execução 3(T3) Quadtree: 245 milissegundos
+Tempo de execução 4(T4) Quadtree: 256 milissegundos
+Tempo de execução 5(T5) Quadtree: 253 milissegundos
+
+Sem Quadtree:
+Tempo de execução 1: Tempo de execução: 261ms
+Tempo de execução 2: Tempo de execução: 287ms
+Tempo de execução 3: Tempo de execução: 273ms
+Tempo de execução 4: Tempo de execução: 292ms
+Tempo de execução 5: Tempo de execução: 298ms
+
+Speed Up:
+
+Speed Up = Tempo sem quadtree/Tempo com Quadtree
+
+Sp 1 = 1,105932203389831 ms
+Sp 2 = 1,161943319838057 ms
+Sp 3 = 1,114285714285714 ms
+Sp 4 = 1,140625 ms
+Sp 5 = 1,177865612648221 ms
+
+Media SP = Sp1+Sp2+Sp3+Sp4+Sp5/2
+
+Media Sp = 2,850325925080912 ms
+
+Link do Repositorio:
+
+https://github.com/ArthurCovelo/Quadtree_Console
+
+Link Do Video Demonstração:
+
+https://drive.google.com/file/d/1NtL7_aoX3Tl4jkqM6h5ko6wJJNl4c5Rt/view?usp=sharing
